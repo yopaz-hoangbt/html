@@ -107,7 +107,7 @@ export default function MidAutumnFestival() {
           className="text-xl md:text-3xl text-yellow-200 text-center mb-12 animate-fadeInUp font-medium text-balance"
           style={{ animationDelay: "0.3s" }}
         >
-          Gửi đến Phùng Khánh Linh yêu dấu
+          Gửi đến Em Quỳnh homieeeeeeeee <3
         </p>
 
         {/* Mooncakes */}
