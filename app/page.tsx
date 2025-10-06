@@ -24,7 +24,10 @@ export default function MidAutumnFestival() {
       </div>
 
       {/* Floating Lanterns */}
-      <div className="absolute top-40 left-10 md:left-20 animate-swing" style={{ animationDelay: "0s" }}>
+      <div
+        className="absolute top-40 left-10 md:left-20 animate-swing"
+        style={{ animationDelay: "0s" }}
+      >
         <div className="w-16 h-20 md:w-20 md:h-24 bg-gradient-to-b from-red-500 to-red-600 rounded-lg relative">
           <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-8 h-2 bg-yellow-600 rounded-full" />
           <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-12 border-2 border-yellow-400 rounded-full" />
@@ -35,7 +38,10 @@ export default function MidAutumnFestival() {
         </div>
       </div>
 
-      <div className="absolute top-60 right-32 animate-swing" style={{ animationDelay: "0.5s" }}>
+      <div
+        className="absolute top-60 right-32 animate-swing"
+        style={{ animationDelay: "0.5s" }}
+      >
         <div className="w-12 h-16 md:w-16 md:h-20 bg-gradient-to-b from-amber-500 to-orange-600 rounded-lg relative">
           <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-6 h-2 bg-yellow-600 rounded-full" />
           <div className="absolute top-2 left-1/2 -translate-x-1/2 w-8 h-8 border-2 border-yellow-400 rounded-full" />
@@ -46,7 +52,10 @@ export default function MidAutumnFestival() {
         </div>
       </div>
 
-      <div className="absolute bottom-40 left-1/4 animate-swing" style={{ animationDelay: "1s" }}>
+      <div
+        className="absolute bottom-40 left-1/4 animate-swing"
+        style={{ animationDelay: "1s" }}
+      >
         <div className="w-14 h-18 md:w-18 md:h-22 bg-gradient-to-b from-pink-500 to-pink-600 rounded-lg relative">
           <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-7 h-2 bg-yellow-600 rounded-full" />
           <div className="absolute top-2 left-1/2 -translate-x-1/2 w-10 h-10 border-2 border-yellow-400 rounded-full" />
@@ -61,7 +70,10 @@ export default function MidAutumnFestival() {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
         {/* Decorative Stars Around Title */}
         <div className="relative">
-          <div className="absolute -top-8 -left-8 text-4xl md:text-6xl animate-float" style={{ animationDelay: "0s" }}>
+          <div
+            className="absolute -top-8 -left-8 text-4xl md:text-6xl animate-float"
+            style={{ animationDelay: "0s" }}
+          >
             ⭐
           </div>
           <div
@@ -91,16 +103,18 @@ export default function MidAutumnFestival() {
           </h1>
         </div>
 
-        {/* Subtitle */}
         <p
           className="text-xl md:text-3xl text-yellow-200 text-center mb-12 animate-fadeInUp font-medium text-balance"
           style={{ animationDelay: "0.3s" }}
         >
-          Chúc bạn một mùa Trung Thu an lành, hạnh phúc
+          Gửi đến Phùng Khánh Linh yêu dấu
         </p>
 
         {/* Mooncakes */}
-        <div className="flex gap-6 md:gap-12 mb-12 animate-fadeInUp" style={{ animationDelay: "0.6s" }}>
+        <div
+          className="flex gap-6 md:gap-12 mb-12 animate-fadeInUp"
+          style={{ animationDelay: "0.6s" }}
+        >
           <div className="w-20 h-20 md:w-28 md:h-28 bg-gradient-to-br from-amber-600 to-yellow-700 rounded-full flex items-center justify-center border-4 border-yellow-500 animate-float shadow-xl">
             <div className="text-3xl md:text-5xl">🥮</div>
           </div>
@@ -119,7 +133,10 @@ export default function MidAutumnFestival() {
         </div>
 
         {/* Decorative Elements */}
-        <div className="flex gap-8 text-5xl md:text-7xl animate-fadeInUp" style={{ animationDelay: "0.9s" }}>
+        <div
+          className="flex gap-8 text-5xl md:text-7xl animate-fadeInUp"
+          style={{ animationDelay: "0.9s" }}
+        >
           <span className="animate-float" style={{ animationDelay: "0s" }}>
             🏮
           </span>
@@ -131,28 +148,41 @@ export default function MidAutumnFestival() {
           </span>
         </div>
 
-        {/* Bottom Message */}
-        <div className="mt-16 text-center animate-fadeInUp" style={{ animationDelay: "1.2s" }}>
+        <div
+          className="mt-16 text-center animate-fadeInUp"
+          style={{ animationDelay: "1.2s" }}
+        >
           <p className="text-lg md:text-2xl text-amber-300 font-medium text-balance">
-            Đêm trăng rằm tròn đầy, sum vầy bên gia đình
+            Chúc em một mùa Trung Thu thật ấm áp và hạnh phúc
           </p>
           <p className="text-base md:text-xl text-yellow-200 mt-2 text-balance">
-            Rước đèn lồng, ăn bánh trung thu, vui hội trăng rằm
+            Trăng tròn, người tròn, tình yêu mãi tròn đầy bên nhau
           </p>
         </div>
       </div>
 
       {/* Floating Sparkles */}
-      <div className="absolute bottom-10 left-10 text-3xl animate-float">✨</div>
-      <div className="absolute bottom-20 right-20 text-4xl animate-float" style={{ animationDelay: "0.7s" }}>
+      <div className="absolute bottom-10 left-10 text-3xl animate-float">
+        ✨
+      </div>
+      <div
+        className="absolute bottom-20 right-20 text-4xl animate-float"
+        style={{ animationDelay: "0.7s" }}
+      >
         ⭐
       </div>
-      <div className="absolute top-1/3 left-1/4 text-2xl animate-float" style={{ animationDelay: "1.2s" }}>
+      <div
+        className="absolute top-1/3 left-1/4 text-2xl animate-float"
+        style={{ animationDelay: "1.2s" }}
+      >
         💫
       </div>
-      <div className="absolute top-2/3 right-1/3 text-3xl animate-float" style={{ animationDelay: "0.4s" }}>
+      <div
+        className="absolute top-2/3 right-1/3 text-3xl animate-float"
+        style={{ animationDelay: "0.4s" }}
+      >
         🌟
       </div>
     </main>
-  )
+  );
 }
